@@ -3,6 +3,20 @@
 ::before {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Suisse";
+  src: url("./assets/fonts/SuisseIntl-Bold.otf") format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+    font-family: "Suisse";
+    src: url("./assets/fonts/SuisseIntl-Light.otf") format("opentype");
+    font-weight: lighter;
+    font-style: normal;
+  }
+
+ 
 html,
 body {
   margin: 0;
@@ -15,7 +29,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
   box-sizing: border-box;
-  font-family: "Sussie-Intl", "PT Sans", Calibri, Tahoma, sans-serif;
+  font-family: "Suisse";
 }
 body {
     margin: 0;
@@ -28,8 +42,8 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
     box-sizing: border-box;
-    font-family: "Sussie-Intl", "PT Sans", Calibri, Tahoma, sans-serif;
-  }
+    font-family: "Suisse";
+}
 button,
 select {
   margin: 0;
@@ -298,23 +312,12 @@ line-height: 1;}
   --light-grey: #d4d4d4;
   --yellow:yellow;
   /*Font*/
-  --general-font: "Suisse-Intl";
+  --general-font: "Suisse";
 
   --default-size: 1.6rem;
 }
 
-@font-face {
-  font-family: "Suisse-Intl";
-  src: url("./assets/fonts/SuisseIntl-Bold.otf") format("opentype");
-  font-weight: bold;
-  font-style: normal;
-}
-@font-face {
-    font-family: "Suisse-Intl";
-    src: url("./assets/fonts/SuisseIntl-Light.otf") format("opentype");
-    font-weight: lighter;
-    font-style: normal;
-  }
+
 
 
  .gradient-background{
@@ -363,7 +366,7 @@ overflow: hidden;
     position: absolute;
     display: inline-block;
     width: 100%;
-    top: 34px;
+    top: 24px;
     right: -694px;
     height: 100%;
     z-index: 0;
@@ -516,3 +519,18 @@ color: black;
 .boxSection{padding: 0px 80px;
 gap: 12px;
 justify-content: center;}
+
+
+.spinner-1{
+    bottom: 254px;
+    right: 30px;
+    color: white;
+    display: inline-block;
+}
+
+.spinner-2{
+    bottom: 114px;
+    right: 180px;
+    color: white;
+    display: inline-block;
+}
