@@ -569,15 +569,19 @@ cursor: pointer;
 }
 .borderRing2{
     background: linear-gradient(180deg, #030080 -59.8%, #DB00FF 135.81%);
-
-padding:15px;
-border-radius: 53px;
-cursor: pointer;
-color: #ffffff;
-transition: all 5ms ease-out;
-display: flex;
-flex-direction: column;
-align-items: center;
+    padding: 15px;
+    height: 535px;
+    justify-content: space-around;
+    border-radius: 53px;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 5ms ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pg{
+    padding:0 24px;
 }
 .borderRing2:hover{
 background: white;
