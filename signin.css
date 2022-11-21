@@ -1,0 +1,275 @@
+
+
+/* =================
+
+
+GENERAL STYLES 
+
+
+===================*/
+@font-face {
+    font-family: "Suisse";
+    src: url("./assets/fonts/SuisseIntl-Bold.otf") format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+      font-family: "Suisse";
+      src: url("./assets/fonts/SuisseIntl-Light.otf") format("opentype");
+      font-weight: lighter;
+      font-style: normal;
+
+    }
+
+:root{
+    box-sizing: border-box;
+    --original-black: #000000;
+    --primary-text:"Suisse";
+    --original-white: #ffffff;
+    --text-grey:#707a86;
+    --border-grey: #383f48;
+    --primary-purple: #541e54;
+
+}
+
+*,*::after,*::before {
+    box-sizing: inherit;
+}
+
+body{
+    background-color:var(--original-black);
+    font-family: var(--primary-text);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* =================
+
+
+LAYOUT STYLES 
+
+
+===================*/
+
+
+header{
+    padding: 1.5em 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{
+    width: 150px;
+}
+
+
+.container {
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+.container--btw{
+     width: 98%;
+     margin: auto;
+}
+
+
+
+.wrapper-center{
+     background-color: var(--original-white);
+     border-radius: 1em;
+     width: 95%;
+     max-width: 500px;
+     padding: 1em;
+}
+
+
+
+
+
+/* =================
+
+
+FORM STYLES 
+
+
+===================*/
+
+
+.title{
+    font-size: 24px;
+}
+
+
+.form-element-group{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}
+
+.form-element-group--center{
+    justify-content: center;
+}
+
+.form-element-group--mt-0{
+    margin-top: 0;
+}
+
+.form-element-group--btw{
+    justify-content: space-between;
+}
+
+
+
+.form-element-item{
+     width: 100%;
+     padding:  1em;
+     border: 1px solid var(--border-grey);
+     border-radius: 25px;
+     font-size: 14px;
+}
+
+.form-element-item--shared{
+    width:48%;
+}
+
+.form-element-item:focus{
+   outline-color: var(--original-black);
+}
+
+.form-element-item::placeholder{
+    font-family: inherit;
+    color: var(--text-grey);
+    font-size: 14px;
+}
+
+.password-reset-cta{
+    text-align: right;
+    margin-top: 1em ;
+}
+
+#auth{
+    accent-color: var(--original-black);
+    cursor: pointer;
+}
+.checkbox-label{
+    font-size: 12px;
+    margin-left: .8em;
+}
+
+.checkbox-label--bold{
+    font-weight: bold;
+}
+
+.btn{
+    border-radius: 25px;
+    padding: .5em;
+    border: none;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-primary{
+    background-color: var(--primary-purple);
+    color: var(--original-white);
+    font-weight: bold;
+}
+.btn-sec{
+    border: 1px solid var(--border-grey);
+    background-color:var(--original-white);
+}
+
+.google-logo{
+    width: 20px;
+    margin-right: .5em;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.form-cta{
+    margin-top: 1.3em;
+}
+
+.form-cta-link{
+    font-weight: bold;
+    margin-left: .3em;
+}
+
+
+
+/* =================
+
+
+SIGN UP STYLES 
+
+
+===================*/
+
+
+.hero{
+   
+    display: none;
+}
+
+.hero-text{
+    color: var(--original-white);
+    font-weight: 400;
+    font-size: 5em;
+    margin-top: 2em;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  
+    .wrapper-center{
+        padding: 2em;
+        border-radius: 3em;
+
+   }
+
+    .form-element-item{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .hero{
+        display: flex;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .title{
+        margin: 1em 1.5em;
+        font-size: 30px;
+    }
+    .container--btw{
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+}
