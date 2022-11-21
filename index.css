@@ -735,3 +735,14 @@ justify-content: center;}
 .imageSection{
     gap: 30px;
 }
+
+.button2{
+    font-size: 18px;
+    padding: 5px 20px;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    font-family: var(--general-font);
+}
