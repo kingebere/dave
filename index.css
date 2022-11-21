@@ -635,7 +635,7 @@ justify-content: center;}
 
 .changeText::before {
     content: "Get up to $100K  Instant Fx Funding";
-    animation: animate infinite 9s;
+    animation: animate infinite 5s;
 }
 
 @keyframes animate {
