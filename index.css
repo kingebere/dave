@@ -658,13 +658,15 @@ border-image-source: linear-gradient(180deg, #0776F9 0%, #0768F9 0.01%, #BD00FF 
     padding: 5px ;
     overflow: auto;
     flex-wrap: nowrap;
+    width:83%;
+    max-width: 83%;
   }
 
   .tab-item{
     padding: 10px 10px;
     border-radius: 100px;
     cursor: pointer;
-    padding: 20px 50px;
+    padding: 10px;
     border-radius: 100px;
     cursor: pointer;
     text-align: center;
