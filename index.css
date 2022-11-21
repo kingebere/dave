@@ -344,6 +344,8 @@ line-height: 1;}
                     line-height: 1;}
                 .lg\:text-8xl{font-size: 6rem; /* 96px */
                     line-height: 1;}
+                    .lg\:text-9xl	{font-size: 8rem; /* 128px */
+                        line-height: 1;}
              .lg\:text-2xl{
                 font-size: 1.5rem; /* 24px */
                 line-height: 2rem; /* 32px */
@@ -448,9 +450,9 @@ line-height: 1;}
 .Header{
     position: relative;
     overflow: hidden;
-    background-size: 190%;
-    background-position-x: 260px;
-    background-position-y: -290px;
+    background-size: 100%;
+    background-position-x: 90px;
+    background-position-y: -190px;
     background-repeat: no-repeat;
     background-color: black;
     background-image: url("./assets/images/hero-background.svg");
