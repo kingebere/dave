@@ -544,17 +544,20 @@ position: relative;
     background-color: black;
 }
 .footer{
-    position:relative;
-    overflow:hidden;
+    position: relative;
+    overflow: hidden;
     background-color: black;
-    z-index:100;
-    padding-top: 50px;
+    background-size: 100% 100%;
+    background-position-y: -134px;
+    z-index: 100;
+    background-repeat: no-repeat;
+    background-image:url("./assets/images/footer-background.png")
    
 }
 @media (min-width:1200px){
     .footer{padding-top: 176px;} 
 }
-.footer::after{
+/* .footer::after{
     content: "";
     position: absolute;
     width: 100%;
@@ -564,8 +567,8 @@ position: relative;
     
     transform: rotateY(180deg);
     background-repeat: no-repeat;
-    background-image:url("./assets/images/footer-background.svg")
-}
+    background-image:url("./assets/images/footer-background.png")
+} */
 .diffuseFade{
     height:80px;
     background:linear-gradient(rgba(255, 255, 255, 0), rgba(8, 8, 8, 0.5), rgb(14, 13, 13));
