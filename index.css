@@ -417,9 +417,8 @@ line-height: 1;}
     
      ;}
      .gradient-textbackground{
-        background-image: 
-        linear-gradient( to left ,#f6ff2c,#71e0f4, #db57fe 83% );
-       
+        background: linear-gradient(90deg, #FFF502 0%, #0CFFD3 37.62%, #1FBCFF 67.33%, #EB00FF 100%);
+
         ;}
      .gradient-textBackground{
         -webkit-text-fill-color: transparent;
