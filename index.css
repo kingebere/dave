@@ -360,6 +360,11 @@ line-height: 2.5rem; /* 40px */
                 font-size: 2rem; /* 24px */
                 line-height: 2.25rem;
              }
+             .lg\:text-81{  
+                 font-size: 81px;
+                line-height: 1;
+             }
+ 
 
             }
 @media (min-width:1280px){
@@ -724,11 +729,12 @@ justify-content: center;}
 
 .changeText{
     height: 200px;
+    width: 72%;
 }
 
 .changeText::before {
     content: "We Fund";
-    animation: animate infinite 20s;
+    animation: animate infinite 1s;
 }
 
 @keyframes animate {
