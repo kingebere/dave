@@ -94,7 +94,30 @@ font-weight: normal;
     max-width: 1140px;
 }}
 
+@media (min-width: 576px){
+    .containers {
+        max-width: 540px;
+    }}
+    @media (min-width: 768px){
+    .containers {
+        max-width: 720px;
+    }}
+    @media (min-width: 992px){
+    .containers {
+        max-width: 960px;
+    }}
+    @media (min-width: 1200px){
+    .containers {
+        max-width: 1340px;
+    }}
 
+    .containers {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
 .container {
     width: 100%;
@@ -304,6 +327,10 @@ line-height: 1;}
       @media (min-width:992px) {
         .lg\:text-11xl{
                     font-size: 10rem; /* 160px */
+        line-height: 1;
+                }
+                .lg\:text-12xl{
+                    font-size: 11rem; /* 176px */
         line-height: 1;
                 }
                 .lg\:text-6xl{
