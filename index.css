@@ -410,14 +410,17 @@ line-height: 1;}
   
 .green{background-color: green;}
 .Header{
-position: relative;
-overflow: hidden;
-    /* background-position-x: 556px;
-    background-position-y: 21px; */
+    position: relative;
+    overflow: hidden;
+    background-size: 146%;
+    background-position-x: 556px;
+    background-position-y: -183px;
     background-repeat: no-repeat;
     background-color: black;
+    height: 100vh;
+    background-image: url("./assets/images/hero-background.svg");
 }
-.Header::after{
+/* .Header::after{
     content: "";
     position: absolute;
     display: inline-block;
@@ -433,7 +436,7 @@ overflow: hidden;
     background-repeat: no-repeat;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
-}
+} */
 @keyframes moveHeader {
     /* from{ right: -694px;}
     to{ right: -1046px;} */
