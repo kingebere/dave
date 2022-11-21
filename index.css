@@ -170,7 +170,7 @@ font-weight: normal;
 .w-full{width:100%}
 .w-half{width:50%}
 
-.w-180{width:180px;}
+.w-220{width:220px;}
 
 @media (min-width:1200px){
     .lg\:basis-30{flex-basis: 30%;}
@@ -215,8 +215,8 @@ font-weight: normal;
 .pr-15{padding-right: 15px;}
 
 @media (min-width:992px) {
-    .lg\:pt-150{
-                padding-top: 150px;
+    .lg\:pt-220{
+                padding-top: 220px;
             };
            
             .lg\:pb-120{
