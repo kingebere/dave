@@ -189,9 +189,10 @@ font-weight: normal;
 .pr-15{padding-right: 15px;}
 
 @media (min-width:992px) {
-    .lg\:pt-120{
-                padding-top: 120px;
+    .lg\:pt-150{
+                padding-top: 150px;
             };
+           
             .lg\:pb-120{
                 padding-bottom: 120px;
             }
