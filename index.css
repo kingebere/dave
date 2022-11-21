@@ -751,7 +751,7 @@ justify-content: center;}
 @keyframes animate {
 
     0% {
-        content: "Get up to $100K  Instant Fx Funding";
+        content: "We Teach";
     }
 
     50% {
@@ -759,7 +759,7 @@ justify-content: center;}
     }
 
     75% {
-        content: "We Teach";
+        content: "Get up to $100K  Instant Fx Funding";
     }
     100% {
         content: "We Pay";
