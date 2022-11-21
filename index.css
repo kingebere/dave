@@ -108,7 +108,7 @@ font-weight: normal;
     }}
     @media (min-width: 1200px){
     .containers {
-        max-width: 1340px;
+        max-width: 1240px;
     }}
 
     .containers {
@@ -231,6 +231,7 @@ font-weight: normal;
 /* Gap */
 .gap-2{gap:8px}
 .gap-4{gap:16px}
+.gap-30{gap: 30px;}
 .gap-60{gap:60px;}
 .gap-50{gap: 50px;}
 /* Margin */
@@ -368,7 +369,7 @@ line-height: 1;}
     padding: 0 12px;
     display: inline-flex;
     align-items: center;
-    height: 36px;
+    height: 53px;
     border-radius: 25px;
     font-family: var(--general-font);
 }
@@ -412,8 +413,8 @@ line-height: 1;}
 
 
  .gradient-background{
-     background-image: 
-     linear-gradient( to left ,#72ff8d ,#3cf2c9, #b378f3 83% );
+    background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%);
+
     
      ;}
      .gradient-textbackground{
