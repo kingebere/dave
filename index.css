@@ -655,3 +655,7 @@ justify-content: center;}
         content: "We Pay";
     }
 }
+
+.imageSection{
+    gap: 30px;
+}
