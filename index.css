@@ -210,6 +210,9 @@ font-weight: normal;
 .mb-10{
     margin-bottom: 10px;
 }
+.mb-15{
+    margin-bottom: 15px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
@@ -398,6 +401,7 @@ line-height: 1;}
     border-radius: 50%;
 
 }
+
 .relatives::before {
     content: "• ";
     color: rgb(0, 255, 0);
