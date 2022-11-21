@@ -544,7 +544,6 @@ color: black;
 
 .gradient-2:hover{
   scale:1.1;
-  transition: all 1s ease-in;
 }
 
 .gradient-2 {
