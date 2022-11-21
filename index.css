@@ -217,7 +217,7 @@ font-weight: normal;
 
 @media (min-width:992px) {
     .lg\:pt-220{
-                padding-top: 220px;
+                padding-top: 180px;
             };
            
             .lg\:pb-120{
