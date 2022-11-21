@@ -700,7 +700,9 @@ justify-content: center;}
 
 }
 
-
+.changeText{
+    height: 200px;
+}
 
 .changeText::before {
     content: "We Fund";
