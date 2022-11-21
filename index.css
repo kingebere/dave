@@ -234,6 +234,7 @@ font-weight: normal;
 .gap-30{gap: 30px;}
 .gap-60{gap:60px;}
 .gap-50{gap: 50px;}
+.gap-50{gap: 60px;}
 /* Margin */
 .mb-10{
     margin-bottom: 10px;
@@ -353,6 +354,8 @@ line-height: 1;}
 
             }
 
+            .text-20{font-size: 20px;}
+
 /* Font weight */
 
 .font-thin{font-weight:100}
@@ -368,7 +371,7 @@ line-height: 1;}
 
 .button {
     font-size: 18px;
-    padding: 0 12px;
+    padding: 0 20px;
     display: inline-flex;
     align-items: center;
     height: 53px;
@@ -442,7 +445,7 @@ line-height: 1;}
     margin-right:2px ;
     width:12px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 20px;
     display: inline-block;
   }
   
@@ -451,8 +454,7 @@ line-height: 1;}
     position: relative;
     overflow: hidden;
     background-size: 100%;
-    background-position-x: 90px;
-    background-position-y: -190px;
+    background-position-y: -100px;
     background-repeat: no-repeat;
     background-color: black;
     background-image: url("./assets/images/hero-background.svg");
