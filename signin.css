@@ -28,7 +28,7 @@ GENERAL STYLES
     --original-white: #ffffff;
     --text-grey:#707a86;
     --border-grey: #383f48;
-    --primary-purple: #2e1b2e;
+    --primary-purple: #541e54;
 
 }
 
@@ -62,7 +62,7 @@ LAYOUT STYLES
 
 
 header{
-    height: 10vh;
+    padding: 1.5em 0;
     width: 90%;
     margin: auto;
     display: flex;
@@ -77,24 +77,26 @@ header{
 
 .container {
     display: flex;
-    height: 90vh;
+    height: 85vh;
     align-items: center;
     justify-content: center;
 }
 .container--btw{
-    justify-content: space-between;
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+     width: 98%;
+     margin: auto;
 }
+
+
 
 .wrapper-center{
      background-color: var(--original-white);
-     border-radius: 3em;
-     width: 70%;
+     border-radius: 1em;
+     width: 95%;
      max-width: 500px;
-     padding: 2em;
+     padding: 1em;
 }
+
+
 
 
 
@@ -108,12 +110,12 @@ FORM STYLES
 
 
 .title{
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
 .form-element-group{
-    margin-top: 1.5em;
+    margin-top: 1em;
     display: flex;
     align-items: center;
 }
@@ -130,15 +132,18 @@ FORM STYLES
     justify-content: space-between;
 }
 
+
+
 .form-element-item{
      width: 100%;
-     padding:  .8em 1em;
+     padding:  1em;
      border: 1px solid var(--border-grey);
      border-radius: 25px;
+     font-size: 14px;
 }
 
 .form-element-item--shared{
-    width: 48%;
+    width:48%;
 }
 
 .form-element-item:focus{
@@ -148,13 +153,20 @@ FORM STYLES
 .form-element-item::placeholder{
     font-family: inherit;
     color: var(--text-grey);
+    font-size: 14px;
 }
+
+.password-reset-cta{
+    text-align: right;
+    margin-top: 1em ;
+}
+
 #auth{
     accent-color: var(--original-black);
     cursor: pointer;
 }
 .checkbox-label{
-    font-size: 10px;
+    font-size: 12px;
     margin-left: .8em;
 }
 
@@ -164,9 +176,9 @@ FORM STYLES
 
 .btn{
     border-radius: 25px;
-    padding: .3em;
+    padding: .5em;
     border: none;
-    width: 60%;
+    width: 250px;
     display: flex;
     justify-content: center;
     font-size: 17px;
@@ -190,7 +202,7 @@ FORM STYLES
 
 p {
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .form-cta{
@@ -214,9 +226,8 @@ SIGN UP STYLES
 
 
 .hero{
-    display: flex;
-    height: 100%;
-    align-items: flex-start;
+   
+    display: none;
 }
 
 .hero-text{
@@ -226,3 +237,39 @@ SIGN UP STYLES
     margin-top: 2em;
 }
 
+
+
+
+
+@media (min-width: 768px) {
+  
+    .wrapper-center{
+        padding: 2em;
+        border-radius: 3em;
+
+   }
+
+    .form-element-item{
+        font-size: 16px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .hero{
+        display: flex;
+        height: 100%;
+        align-items: flex-start;
+    }
+    .title{
+        margin: 1em 1.5em;
+        font-size: 30px;
+    }
+    .container--btw{
+        justify-content: space-between;
+        width: 90%;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+}
