@@ -327,6 +327,10 @@ line-height: 1;}
         line-height: 1;}
 .text-12xl	{font-size: 11rem; /* 176px */
             line-height: 1;}
+            .text-25xl{
+                font-size: 2.5rem; /* 36px */
+line-height: 2.5rem; /* 40px */
+            }
 
       @media (min-width:992px) {
         .lg\:text-11xl{
@@ -564,9 +568,10 @@ cursor: pointer;
 
 }
 .borderRing2{
-    background: linear-gradient(217deg,#9212b5,#5103cc);
+    background: linear-gradient(180deg, #030080 -59.8%, #DB00FF 135.81%);
+
 padding:15px;
-border-radius: 25px;
+border-radius: 53px;
 cursor: pointer;
 color: #ffffff;
 transition: all 5ms ease-out;
@@ -590,7 +595,7 @@ color: black;
         margin-right:2px ;
         width:12px;
         font-weight: bold;
-        font-size: 12px;
+        font-size: 20px;
         display: inline-block;
         transition: all 5ms ease-out;
       }
