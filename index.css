@@ -371,7 +371,7 @@ line-height: 1;}
 
 .button {
     font-size: 18px;
-    padding: 0 20px;
+    padding: 5px 20px;
     display: inline-flex;
     align-items: center;
     height: 53px;
