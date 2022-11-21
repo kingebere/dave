@@ -619,6 +619,8 @@ border-image-source: linear-gradient(180deg, #0776F9 0%, #0768F9 0.01%, #BD00FF 
     flex: 0 0 26%;
     max-width: 26%;
   }
+  .step1{
+    font-size: 45px;}
 .step{
     font-size: 45px;
     margin-top: 48px;
