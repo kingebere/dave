@@ -734,7 +734,7 @@ justify-content: center;}
 
 .changeText::before {
     content: "We Fund";
-    animation: animate infinite 1s;
+    animation: animate infinite 5s;
 }
 
 @keyframes animate {
