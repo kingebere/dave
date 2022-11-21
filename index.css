@@ -451,8 +451,13 @@ line-height: 1;}
     background-position-y: -290px;
     background-repeat: no-repeat;
     background-color: black;
-    height: 100vh;
     background-image: url("./assets/images/hero-background.svg");
+}
+@media (min-width:1200px){
+    .Header{
+
+        height: 100vh;
+    }
 }
 /* .Header::after{
     content: "";
