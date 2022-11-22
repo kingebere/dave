@@ -582,7 +582,7 @@ width: 75%
 .Header{
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    
     background-size: 100%;
     background-position-y: -140px;
     background-repeat: no-repeat;
@@ -592,7 +592,7 @@ width: 75%
 @media (min-width:1200px){
     .Header{
 
-        height: 100vh;
+        
     }
 }
 /* .Header::after{
