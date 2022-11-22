@@ -11,25 +11,25 @@ const tabContents=document.querySelectorAll(".tab-content")
 //     const Item = document.querySelector(`#heroText-${i}-content`)
 //     Item.classList.add('active')
 // }
-// var i =0
-// function tyh(){
+var i =0
+function tyh(){
     
-//     if(i<3){
-//        i++
-//          const Item = dd[i]
-// removed();
-// Item.classList.add('active')
+    if(i<3){
+       i++
+         const Item = dd[i]
+removed();
+Item.classList.add('active')
 
-//     }else{
-//         i=0
-//         const Item = dd[i]
-//         removed();
-//         Item.classList.add('active')
-//     }
-//     return i
+    }else{
+        i=0
+        const Item = dd[i]
+        removed();
+        Item.classList.add('active')
+    }
+    return i
 
-// }
-// setInterval(tyh,5000)
+}
+setInterval(tyh,5000)
 
 
 
