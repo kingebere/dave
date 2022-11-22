@@ -103,10 +103,6 @@ font-weight: normal;
         .containers {
             max-width: 1600px;
         }}
-        @media (min-width: 1900px){
-            .containers {
-                max-width: 1400px;
-            }}
 
     .containers {
         width: 100%;
