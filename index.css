@@ -454,10 +454,10 @@ line-height: 2.5rem; /* 40px */
 .button {
     font-size: 18px;
     color: #000000;
-    padding: 8px 24px;
     display: inline-flex;
     align-items: center;
-    height: 53px;
+    height: 58px;
+    padding: 5px 5px;
     border-radius: 25px;
     justify-content: center;
     font-family: var(--general-font);
@@ -508,7 +508,7 @@ width: 75%
      ;}
      @media(min-width:1200px){
         .gradient-background{
-            width: 20%
+            width: 25%
         }
      }
      .gradient-textbackground{
