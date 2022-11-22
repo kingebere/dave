@@ -784,3 +784,22 @@ justify-content: center;}
     border-radius: 15px;
     font-family: var(--general-font);
 }
+
+.bannerAnimation{
+    white-space: nowrap;
+    width: 100vw;
+    -webkit-animation: tickerScroll 40s linear infinite normal;
+    animation: tickerScroll 40s linear infinite normal;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    opacity: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    transition: all linear;
+    will-change: transform,opacity;
+}
+@keyframes tickerScroll{0%{opacity:1;-webkit-transform:translateX(0);transform:translateX(0)}
+to{opacity:1;-webkit-transform:translateX(-1937px);transform:translateX(-1937px)}}
+@keyframes positionScroll{
+    0%{-webkit-transform:translateX(1387.4px);transform:translateX(387.4px)}
+    to{-webkit-transform:translateX(0);transform:translateX(0)}}
