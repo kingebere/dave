@@ -400,11 +400,12 @@ line-height: 2.5rem; /* 40px */
 
 .button {
     font-size: 18px;
-    padding: 5px 20px;
+    padding: 5px 24px;
     display: inline-flex;
     align-items: center;
     height: 53px;
     border-radius: 25px;
+    justify-content: center;
     font-family: var(--general-font);
 }
 
