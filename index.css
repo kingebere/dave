@@ -169,7 +169,7 @@ font-weight: normal;
 
 .w-full{width:100%}
 .w-half{width:50%}
-
+.w-60p{width: 60%;}
 .w-220{width:220px;}
 
 @media (min-width:1200px){
@@ -234,6 +234,7 @@ font-weight: normal;
 .gap-1{gap: 4px;}
 .gap-2{gap:8px}
 .gap-4{gap:16px}
+.gap-15{gap: 15px;}
 .gap-30{gap: 30px;}
 .gap-60{gap:60px;}
 .gap-50{gap: 50px;}
@@ -447,7 +448,7 @@ line-height: 2.5rem; /* 40px */
 
  .gradient-background{
     background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%);
-
+width: 20%
     
      ;}
      .gradient-textbackground{
@@ -769,16 +770,22 @@ justify-content: center;}
 }
 
 .changeText{
-    height: 200px;
+   
     width: 72%;
 }
-
-.changeText::before {
+.heighty{height: 300px;}
+.heroText{
+    display: none;
+}
+.heroText.active{
+    display: flex;
+}
+/* .changeText::before {
     content: "We Fund";
     animation: animate infinite 5s;
-}
+} */
 
-@keyframes animate {
+/* @keyframes animate {
 
     0% {
         content: "We Teach";
@@ -794,7 +801,7 @@ justify-content: center;}
     100% {
         content: "We Pay";
     }
-}
+} */
 
 .imageSection{
     gap: 30px;
@@ -829,3 +836,12 @@ to{opacity:1;-webkit-transform:translateX(-1937px);transform:translateX(-1937px)
 @keyframes positionScroll{
     0%{-webkit-transform:translateX(1387.4px);transform:translateX(387.4px)}
     to{-webkit-transform:translateX(0);transform:translateX(0)}}
+
+    .dotts {
+        background-color: rgb(0, 255, 0);
+        max-width: 2%;
+        flex: 0 0 5%;
+        height: 12px;
+        margin-top: 4px;
+        border-radius: 100%;
+    }
