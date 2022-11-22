@@ -183,6 +183,8 @@ font-weight: normal;
 .basis-full{flex-basis: 100%;}
 .basis-half{flex-basis: 50%;}
 .basis-10{flex-basis: 10%;}
+.basis-23{flex-basis: 23%;}
+.max-w-23{max-width: 23%;}
 .basis-25{flex-basis: 25%;}
 .max-w-25{max-width: 25%;}
 .basis-30{flex-basis: 30%;}
@@ -205,6 +207,8 @@ font-weight: normal;
 .lg\:max-w-30{max-width: 30%;}
 .lg\:basis-25{flex-basis: 25%;}
 .lg\:max-w-25{max-width: 25%;}
+.lg\:basis-23{flex-basis: 23%;}
+.lg\:max-w-23{max-width: 23%;}
 .lg\:w-60p{width: 60%;}
 }
 
@@ -221,7 +225,11 @@ font-weight: normal;
 .items-center{align-items: center;}
 .items-start{align-items: flex-start;}
 .justify-center{justify-content: center;}
-
+.height-fullvh{
+    height: 100vh;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
 
 /* Padding */
 .p-5{padding:5px}
@@ -424,7 +432,8 @@ line-height: 2.5rem; /* 40px */
      }
 }
             .text-20{font-size: 20px;}
-
+.text-dd{font-size: 1.8rem;
+    line-height: 2.2rem;}
 /* Font weight */
 
 .font-thin{font-weight:100}
@@ -433,6 +442,7 @@ line-height: 2.5rem; /* 40px */
 .relative{
     position: relative;
 }
+
 .absolute{position:absolute}
 .bottom-0{bottom:0}
 .z-1{z-index:1}
@@ -641,7 +651,7 @@ cursor: pointer;
 .borderRing2{
     background: linear-gradient(180deg, #030080 -59.8%, #DB00FF 135.81%);
     padding: 15px;
-    height: 535px;
+    height: 479px;
     justify-content: space-around;
     border-radius: 53px;
     cursor: pointer;
@@ -651,9 +661,9 @@ cursor: pointer;
     flex-direction: column;
     align-items: center;
 }
-.pg{
+/* .pg{
     padding:0 24px;
-}
+} */
 .borderRing2:hover{
 background: white;
 color: black;
