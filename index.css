@@ -458,7 +458,7 @@ line-height: 2.5rem; /* 40px */
     align-items: center;
     height: 58px;
     padding: 5px 5px;
-    border-radius: 25px;
+    border-radius: 65px;
     justify-content: center;
     font-family: var(--general-font);
 }
