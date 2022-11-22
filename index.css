@@ -448,6 +448,10 @@ line-height: 2.5rem; /* 40px */
         font-size: 112px;
         line-height: 1;
      }
+     .xl\:text-37{
+        font-size: 37px;
+        line-height: 1;
+     }
 }
             .text-20{font-size: 20px;}
 .text-dd{font-size: 1.8rem;
@@ -854,6 +858,9 @@ justify-content: center;}
     width: 72%;
 }
 .heighty{height: 380px;}
+@media (min-width:1800px){
+    .heighty{height: 573px;}
+}
 .heroText{
     display: none;
 }
