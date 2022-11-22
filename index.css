@@ -484,6 +484,11 @@ line-height: 2.5rem; /* 40px */
     justify-content: center;
     font-family: var(--general-font);
 }
+@media (min-width:1800px){
+    .button{
+        height: 80px;
+    }
+}
 
 
 
