@@ -449,9 +449,14 @@ line-height: 2.5rem; /* 40px */
 
  .gradient-background{
     background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%);
-width: 20%
+width: 75%
     
      ;}
+     @media(min-width:1200px){
+        .gradient-background{
+            width: 20%
+        }
+     }
      .gradient-textbackground{
         background: linear-gradient(90deg, #FFF502 0%, #0CFFD3 37.62%, #1FBCFF 67.33%, #EB00FF 100%);
 
@@ -483,16 +488,20 @@ width: 20%
 .Header{
     position: relative;
     overflow: hidden;
-    background-size: 100%;
+    background-size: 100%; 
+     height: 100vh;
     background-position-y: -140px;
     background-repeat: no-repeat;
     background-color: black;
     background-image: url("./assets/images/hero-background.svg");
+    padding-top: 123px;
+    padding-bottom: 56px;
 }
 @media (min-width:1200px){
     .Header{
-
-        height: 100vh;
+        padding-top:0px;
+        padding-bottom: 0px;
+      
     }
 }
 /* .Header::after{
