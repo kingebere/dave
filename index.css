@@ -30,20 +30,9 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   box-sizing: border-box;
   font-family: "Suisse";
+  color: var(--original-white);
 }
-body {
-    margin: 0;
-    font-size: 62.5%;
-    min-height: 100%;
-    padding: 0;
-    scroll-behavior: smooth;
-    line-height: 1.6;
-    position: relative;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: subpixel-antialiased;
-    box-sizing: border-box;
-    font-family: "Suisse";
-}
+
 button,
 select {
   margin: 0;
@@ -250,6 +239,7 @@ font-weight: normal;
 .pt-220{padding-top: 220px;}
 .pt-180{padding-top: 180px;}
 .pb-80{padding-bottom: 80px;}
+.pt-150{padding-top: 150px;}
 .pb-150{padding-bottom: 150px;}
 .pb-120{padding-bottom: 120px;}
 .pt-120{padding-top: 120px;}
@@ -867,6 +857,13 @@ justify-content: center;}
 .imageSection{
     gap: 30px;
 }
+.footer-note{
+    width: 85%;
+    max-width: 600px;
+    margin: 5em auto ;
+    display: block;
+}
+
 
 .button2{
     font-size: 18px;
