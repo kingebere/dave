@@ -430,7 +430,7 @@ line-height: 2.5rem; /* 40px */
     line-height: 1;
             }
              .lg\:text-84{  
-                 font-size: 84px;
+                 font-size: 8.4rem;
                  line-height: 1.2;
              }
          
@@ -451,6 +451,9 @@ line-height: 2.5rem; /* 40px */
      .xl\:text-37{
         font-size: 37px;
         line-height: 1;
+     }
+     .xl\:text-2xxl{
+        font-size: 2.4rem; 
      }
 }
             .text-20{font-size: 20px;}
