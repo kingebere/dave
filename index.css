@@ -453,6 +453,7 @@ line-height: 2.5rem; /* 40px */
 
 .button {
     font-size: 18px;
+    color: #000000;
     padding: 8px 24px;
     display: inline-flex;
     align-items: center;
