@@ -83,7 +83,7 @@ font-weight: normal;
     max-width: 1140px;
 }}
 
-@media (min-width: 576px){
+/* @media (min-width: 576px){
     .containers {
         max-width: 540px;
     }}
@@ -102,12 +102,13 @@ font-weight: normal;
     @media (min-width: 1800px){
         .containers {
             max-width: 1600px;
-        }}
+        }} */
 
     .containers {
+        max-width: 100%;
         width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding-right: 40px;
+        padding-left: 40px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -537,7 +538,7 @@ width: 75%
      ;}
      @media(min-width:1200px){
         .gradient-background{
-            width: 25%
+            width: 26%
         }
      }
      .gradient-textbackground{
@@ -582,8 +583,10 @@ width: 75%
 .green{background-color: green;}
 .Header{
     position: relative;
-    overflow: hidden;
-    height: 100vh;
+    overflow: hidden;  
+     height: calc(90vh + 104px);
+        min-height: 829px;
+        max-height: 1120px;
     background-size: 100%;
     background-position-y: -140px;
     background-repeat: no-repeat;
@@ -593,7 +596,7 @@ width: 75%
 @media (min-width:1200px){
     .Header{
 
-        height: 100vh;
+     
     }
 }
 /* .Header::after{
