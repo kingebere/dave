@@ -525,6 +525,9 @@ width: 75%
 position: relative;
     background-color: black;
 }
+.section-1{
+    width:75%;
+}
 .infoSection::after{
     background-image: url("./assets/images/info-background.svg");
     content: "";
