@@ -193,7 +193,7 @@ font-weight: normal;
 .w-full{width:100%}
 .w-half{width:50%}
 .w-60{width: 60%;}
-.w-240{width:220px;}
+.w-240{width:240px;}
 
 @media (min-width:1200px){
     .lg\:basis-30{flex-basis: 30%;}
