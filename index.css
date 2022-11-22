@@ -365,6 +365,8 @@ line-height: 2.25rem; /* 36px */}
 line-height: 2.5rem; /* 40px */}
 .text-5xl	{font-size: 3rem; /* 48px */
 line-height: 1;}
+.text-32xl	{font-size: 3.2rem; /* 48px */
+    line-height: 1;}
 .text-6xl	{font-size: 3.75rem; /* 60px */
 line-height: 1;}
 .text-7xl	{font-size: 4.5rem; /* 72px */
@@ -457,7 +459,7 @@ line-height: 2.5rem; /* 40px */
     color: #000000;
     display: inline-flex;
     align-items: center;
-    height: 58px;
+    height: 60px;
     padding: 5px 5px;
     border-radius: 65px;
     justify-content: center;
