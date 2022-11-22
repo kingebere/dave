@@ -1,0 +1,44 @@
+.paragraph-section{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero-title{
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.hero-text{
+    text-align: center;
+    font-size: 24px;
+}
+
+.Header{
+    margin: 120px 0;
+}
+
+
+.hero-tab {
+    display: flex;
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+    gap: 2em;
+}
+
+.tab-links,.tab-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.tab-link-content,.tab-link{
+    padding: 1em;
+    min-height: 200px;
+}
+
+
+*{
+    border: 1px solid red;
+}
