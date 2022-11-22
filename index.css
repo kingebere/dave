@@ -83,7 +83,7 @@ font-weight: normal;
     max-width: 1140px;
 }}
 
-/* @media (min-width: 576px){
+@media (min-width: 576px){
     .containers {
         max-width: 540px;
     }}
@@ -102,13 +102,12 @@ font-weight: normal;
     @media (min-width: 1800px){
         .containers {
             max-width: 1600px;
-        }} */
+        }}
 
     .containers {
-        max-width: 100%;
         width: 100%;
-        padding-right: 70px;
-        padding-left: 70px;
+        padding-right: 15px;
+        padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
     }
