@@ -99,7 +99,7 @@ font-weight: normal;
     .containers {
         max-width: 1240px;
     }}
-    @media (min-width: 1500px){
+    @media (min-width: 1800px){
         .containers {
             max-width: 1600px;
         }}
@@ -433,16 +433,20 @@ line-height: 2.5rem; /* 40px */
                  font-size: 84px;
                  line-height: 1.2;
              }
-             .xl\:text-112{
-                font-size: 112px;
-                line-height: 1;
-             }
+         
  
 
             }
 @media (min-width:1280px){
     .xl\:text-2xxl{
         font-size: 2.4rem; 
+     }
+}
+
+@media (min-width:1800px){
+    .xl\:text-112{
+        font-size: 112px;
+        line-height: 1;
      }
 }
             .text-20{font-size: 20px;}
@@ -849,7 +853,7 @@ justify-content: center;}
    
     width: 72%;
 }
-.heighty{height: 300px;}
+.heighty{height: 400px;}
 .heroText{
     display: none;
 }
