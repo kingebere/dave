@@ -463,6 +463,7 @@ line-height: 2.5rem; /* 40px */
             .text-20{font-size: 20px;}
 .text-dd{font-size: 1.8rem;
     line-height: 2.2rem;}
+    .text-center{text-align: center;}
 /* Font weight */
 
 .font-thin{font-weight:100}
