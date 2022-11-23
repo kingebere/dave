@@ -607,7 +607,7 @@ width: 75%
 
 .relatives::before {
     content: "• ";
-    color: rgb(0, 255, 0);
+    color: #ffffff;
     margin-right:4px ;
     width:12px;
     font-weight: bold;
