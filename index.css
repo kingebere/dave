@@ -577,7 +577,7 @@ line-height: 2.5rem; /* 40px */
     background-color: yellow;
 }
  .gradient-background{
-    background-color: yellow;
+    background-color: #ffffff;
     /* background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%); */
 width: 75%
     
