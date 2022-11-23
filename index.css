@@ -207,13 +207,14 @@ font-weight: normal;
 
 .h-33{height: 33px;}
 
-.text-center{text-align: center;}
+
 
 
 /* Flex Properties */
 .justify-between{
     justify-content: space-between;
 }
+.items-end{text-align: end;}
 .justify-start{justify-content: flex-start;}
 .items-center{align-items: center;}
 .items-start{align-items: flex-start;}
@@ -275,6 +276,7 @@ font-weight: normal;
 .gap-60{gap:60px;}
 .gap-50{gap: 50px;}
 .gap-50{gap: 60px;}
+.gap-80{gap: 80px;}
 /* Margin */
 .mb-5{
     margin-bottom: 5px;
@@ -392,8 +394,8 @@ line-height: 1;}
 line-height: 2.5rem; /* 40px */
             }
             .text-2xll {
-                font-size: 2rem;
-                line-height: 2rem;
+                font-size: 2.4rem;
+                line-height: 2.4rem;
             }
 
       @media (min-width:992px) {
