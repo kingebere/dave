@@ -632,6 +632,7 @@ width: 75%
     position: relative;
     overflow: hidden;  
      height: calc(90vh + 104px);
+     z-index: -1;
         min-height: 829px;
         max-height: 1120px;
     background-size: 100%;
@@ -1017,3 +1018,27 @@ to{opacity:1;-webkit-transform:translateX(-1937px);transform:translateX(-1937px)
     .banner-1.active{
         display: block;
       }
+.box{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    border-radius: 18px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:12px;
+    margin-top: -133px;
+    z-index: 999999;
+    width: 20%;
+    height: 218px;
+}
+.boxAbsolute{
+    background-color: black;
+}
+
+.text-30{
+    font-size: 3rem;
+    line-height: 1;
+}
