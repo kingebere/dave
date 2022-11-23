@@ -573,9 +573,12 @@ line-height: 2.5rem; /* 40px */
 
 
 
-
+.bg-yellow{
+    background-color: yellow;
+}
  .gradient-background{
-    background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%);
+    background-color: yellow;
+    /* background: linear-gradient(270deg, #78FF0E 0%, #0FFFD4 51.19%, #8F00FF 100%); */
 width: 75%
     
      ;}
@@ -585,7 +588,8 @@ width: 75%
         }
      }
      .gradient-textbackground{
-        background: linear-gradient(90deg, #FFF502 0%, #0CFFD3 37.62%, #1FBCFF 67.33%, #EB00FF 100%);
+        color: yellow;
+        /* background: linear-gradient(90deg, #FFF502 0%, #0CFFD3 37.62%, #1FBCFF 67.33%, #EB00FF 100%); */
 
         ;}
      .gradient-textBackground{
